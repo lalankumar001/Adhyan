@@ -1,0 +1,17 @@
+.justcheck{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    margin-right: 1%;
+    border: 3px solid blue;
+    background-color: rgb(32, 30, 36);
+}
+.justcheck a{
+    float: right;
+    margin-right: 0.5%;
+}

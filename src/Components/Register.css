@@ -1,0 +1,48 @@
+/* Registration page style */ 
+.h4{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40%;
+    width: 30%;
+    height: 20%;
+    margin-top: 5%;
+    position: fixed;
+}
+.Registration-form{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 65%;
+    width: 30%;
+    height: 10%;
+    position:relative;
+    margin-top: 4%;
+    justify-content: space-between;
+  }
+  .User_Icon{
+    align-items: center;
+    margin: 2%;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 200%;
+  }
+  .Register-button{
+    font-size: 120%;
+    color:crimson;
+    align-items: center;
+    padding: 0;
+
+    } 
+.RegPic{
+    margin-left:-210%;
+    width: 50%;
+    height: 10%;
+    margin-top: -92%;
+    overflow: visible;
+    justify-content: space-between;
+    position: absolute;
+}
+img{
+  width:850px;
+  height: 550px;
+}

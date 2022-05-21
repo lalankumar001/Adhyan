@@ -85,7 +85,7 @@
   background-color:rgb(75, 245, 194);
   justify-content: space-between;
 }
-.container .navbar-nav{
+.container  .navbar-nav{
   margin-top: -44%;
   margin-left: 90%;
   position: fixed;

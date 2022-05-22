@@ -6,7 +6,7 @@ const MiniNavBar = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-info bg-secondary">
                <div className="container">
-                   <span className="navbar-brand">
+                   <span className="">
             
                     <NavLink to="/Contact/BcaAllPage" className="btn btn-">Home</NavLink>
                     <NavLink to="/Contact/BcaAllPage/BcaFirstSem" className="btn btn-">First Sem</NavLink>

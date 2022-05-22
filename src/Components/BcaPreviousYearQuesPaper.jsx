@@ -1,4 +1,6 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 import { NavLink } from 'react-router-dom'
 import MiniNavBar from './MiniNavBar'
 import Math from './Images/Bcapic/SubPIc/mathe1.png'

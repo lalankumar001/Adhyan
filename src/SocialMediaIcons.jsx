@@ -1,4 +1,6 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 // SocialMedia icons from react-icons 
 import { FaTwitterSquare ,FaYoutube ,FaFacebook ,FaInstagramSquare ,FaLinkedin} from "react-icons/fa";
 

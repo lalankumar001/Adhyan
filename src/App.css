@@ -156,12 +156,17 @@ background-color: rgb(211, 164, 10);
   background-color: rgb(32, 30, 36);
   text-align: center;
 }
+/* Previous Year paper download */
 .table{
   margin-top: -1%;
   font-family: 'Times New Roman', Times, serif;
-  color: azure;
+  color: rgb(93, 219, 219);
   border: 1px solid black;
   font-size: 20px;
+  background-color: black;
+}
+.forcolor th , td {
+  color: rgb(42, 221, 117);
 }
 
 /* All practical page css  */

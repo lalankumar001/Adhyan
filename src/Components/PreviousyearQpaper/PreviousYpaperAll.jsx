@@ -10,14 +10,14 @@ const PreviousYpaperAll = () => {
         <span className='SemHeading'><h2>FIRST SEMESTER</h2></span>
         <table className='table'>
                 <thead>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='col'>Subjects</th>
                         <th scope='col'>Previous Year Question Paper</th>
                         <th scope='col'>Download</th>
                     </tr>
                 </thead>
                 <tbody>
-                <tr>
+                <tr className='forcolor'>
                         <th scope='row'>BCA 101</th>
                         <td>Discrete Mathematics</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/1AdYCta35V5_wgbbDBqAVmKIjq-YBbiNy" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp; 
@@ -29,7 +29,7 @@ const PreviousYpaperAll = () => {
                           <a href="https://drive.google.com/drive/u/3/folders/1AnqSQBHEzHHpbfwgn4BCrI-UGQMhwnNb" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2019</a>
                           </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 103</th>
                         <td>Programming Using 'C' Language</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/17qnT15Rru-N3OVE0F8LhT0g9fE_lVkD1" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2014</a> &nbsp;
@@ -39,7 +39,7 @@ const PreviousYpaperAll = () => {
                            <a href="https://drive.google.com/drive/u/3/folders/18BbaHg9quixbxfw0RYTYfluddAUde0-e" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                         </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 105#</th>
                         <td>Fundamentals Of Computer & IT</td>
                         <td> <a href="https://drive.google.com/drive/u/3/folders/1CuHArJGj2VkUTC6FoBk6vyvvx6akokL_" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -50,7 +50,7 @@ const PreviousYpaperAll = () => {
                          <a href="https://drive.google.com/drive/u/3/folders/1D6hiDVhK0kZiEyL31v-mU2ixY0WOh06o" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                          </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 107#</th>
                         <td>Web Technologies</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/13re3_8SCfqfYLeDLflFNkAV_hK2co6aM" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -61,7 +61,7 @@ const PreviousYpaperAll = () => {
                           <a href="https://drive.google.com/drive/u/3/folders/13GhUynGbagJr_ASh9VvOyoMKHH911W1_" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a>&nbsp;
                            </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 109</th>
                         <td>Technical Communication</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/14ym5XQn2s9ALlVTbfuiedKEWJ4NPsdth" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -77,14 +77,14 @@ const PreviousYpaperAll = () => {
         <span className='SemHeading'><h2>SECOND SEMESTER</h2></span>
         <table className='table'>
                 <thead>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='col'>Subjects</th>
                         <th scope='col'>Previous Year Question Paper</th>
                         <th scope='col'>Download</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 102</th>
                         <td>Applied Mathematics</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/19muorupvgUs61Z5h6rJ3IRopKC9hpL4G" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -95,7 +95,7 @@ const PreviousYpaperAll = () => {
                          <a href="https://drive.google.com/drive/u/3/folders/1AGngweaLK4zeJEdwNYY69Q8KhfCUqF7E" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                         </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 104</th>
                         <td>Web Based Programming</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/14a-Ik7Jx38iGAMYuQv_X79JKMkrYRdx5" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -105,7 +105,7 @@ const PreviousYpaperAll = () => {
                           <a href="https://drive.google.com/drive/u/3/folders/147ONuHpFxzIr5KxOZ99BtV6tnfnQ0o4A" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2017</a> &nbsp;
                         </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 106</th>
                         <td>Data Structure & Algorithm Using 'C' </td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/1FfRT7a2SKPMMxc-J1a5WvTXmZ4bu605e" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2014</a> &nbsp;
@@ -115,7 +115,7 @@ const PreviousYpaperAll = () => {
                           <a href="https://drive.google.com/drive/u/3/folders/1FzRHzSXwTv9xblwodQwrHkSKO61ZQShy" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                         </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 108#</th>
                         <td>DataBase Management System</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/1GMZTSggSiP1gT_xdFm0YsFJiHrr2RJps" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -124,7 +124,7 @@ const PreviousYpaperAll = () => {
                          <a href="https://drive.google.com/drive/u/3/folders/1Gcf3xIVgSTvfh1xSxLekGXxLPPz-ZmMf" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                          </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 134</th>
                         <td>Fedt VB.net</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/1DfX9IZPZw0N1NGshawiPBXtcIOx-oM3P" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -141,14 +141,14 @@ const PreviousYpaperAll = () => {
         <span className='SemHeading'><h2>THIRD SEMESTER</h2></span>
         <table className='table'>
                 <thead>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='col'>Subjects</th>
                         <th scope='col'>Previous Year Question Paper</th>
                         <th scope='col'>Download</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 201</th>
                         <td>Computer Network</td>
                         <td><a href="https://drive.google.com/drive/u/3/folders/1OCQQ_0TcMY2SXW9tkDM3gNvoHZ8l-2Or" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -159,7 +159,7 @@ const PreviousYpaperAll = () => {
                          <a href="https://drive.google.com/drive/u/0/folders/1OU0axdhpUDUoK_Irtg4OYYEr1qPm2ouL" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;   
                          </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 203</th>
                         <td>Computer Organization and Architecture</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1I_LIEnTh0Mkby39mcSmxXfW0ZzjiopAs" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -168,7 +168,7 @@ const PreviousYpaperAll = () => {
                           <a href="https://drive.google.com/drive/u/0/folders/1IpS5yBPZ2Jf9HKA4tRGsRZbHbERQmS1z" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a>&nbsp;
                         </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 205#</th>
                         <td>Object Oriented Programming with C++</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1NEkEqjBJZHog1R6GMWcx4lxpT1KecM85" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -176,7 +176,7 @@ const PreviousYpaperAll = () => {
                             <a href="https://drive.google.com/drive/u/0/folders/1MLOFX2OResR_vXPC5SS_2-zMvfwGrJMa" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2015</a> &nbsp;
                           </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 221</th>
                         <td>Principles of Management</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/16et65sqXANqBhNTPOQtBxFtquUbaoeOf" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -193,14 +193,14 @@ const PreviousYpaperAll = () => {
         <span className='SemHeading'><h2>FOURTH SEMESTER</h2></span>
         <table className='table'>
                 <thead>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='col'>Subjects</th>
                         <th scope='col'>Previous Year Question Paper</th>
                         <th scope='col'>Download</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 202</th>
                         <td>Java Programming</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1CFQK25176JddNPQj61ej78Su_c---zrv" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -211,7 +211,7 @@ const PreviousYpaperAll = () => {
                             <a href="https://drive.google.com/drive/u/0/folders/1CHsVoYlGQy6cljGX5VexM4tgwyAWklQR" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a>&nbsp;
                             </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 204</th>
                         <td>Software Engineering</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/15imMy4VyHR9Ttc5QPY7K7TM8d2Yqt3jf" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a> &nbsp;
@@ -222,7 +222,7 @@ const PreviousYpaperAll = () => {
                           <a href="https://drive.google.com/drive/u/0/folders/1617ibsRlwnekZlBTdBX3rj5TGB2fPaY_" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                           </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 214</th>
                         <td>Artificial Intelligence</td>
                         <td>
@@ -231,7 +231,7 @@ const PreviousYpaperAll = () => {
                            <a href="https://drive.google.com/drive/u/0/folders/1JHB62MY-pXtDfQnY0WIigvj4je5_xFqx" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2019</a>
                            </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 216</th>
                         <td>Computer Network and Security</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1GrwgzHSeeFQ35BLptgKuA8L_O3Sx4CuM" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -241,7 +241,7 @@ const PreviousYpaperAll = () => {
                             <a href="https://drive.google.com/drive/u/0/folders/1HF58Q6MM4Jv73uuDsY4Paez3CWFklaQB " target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                             <a href="https://drive.google.com/drive/u/0/folders/1HLdNPmqp4h-olTAikHPFUUN2XX2JKR37" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2019</a></td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 224</th>
                         <td>Principles of Accounting</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/18H6szgxRHvFnkN8JWb8nx2OSFMPPJC3z" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -255,14 +255,14 @@ const PreviousYpaperAll = () => {
         <span className='SemHeading'><h2>FIFTH SEMESTER</h2></span>
         <table className='table'>
                 <thead>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='col'>Subjects</th>
                         <th scope='col'>Previous Year Question Paper</th>
                         <th scope='col'>Download</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 301</th>
                         <td>Operating System </td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/190EZ15hOwBeW3WI2MMaqkNO1ZSy88ZB9" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -272,7 +272,7 @@ const PreviousYpaperAll = () => {
                            <a href="https://drive.google.com/drive/u/0/folders/197nDdqw3HpxKMAwg2n41EKk46SMYzyOI" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2017</a>&nbsp;
                             <a href="https://drive.google.com/drive/u/0/folders/19GlGVgrQUjV2BJKfjyqBCNLn-5GmgPZR" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a></td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA ###</th>
                         <td>Linux Programming</td>
                         <td>
@@ -281,7 +281,7 @@ const PreviousYpaperAll = () => {
                            <a href="https://drive.google.com/drive/u/0/folders/1BW0fCCrdAaV6LR75mQLgSzvQVevbs_Xo" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a>&nbsp;
                             <a href="https://drive.google.com/drive/u/0/folders/1BZT2dcMa7mOC3QrYBRPXgASloZEzCrBc" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2019</a></td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 303</th>
                         <td>Computer Graphics</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1OAc5ayMho8mN3ydxShBqqalvRq4tr545" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -291,7 +291,7 @@ const PreviousYpaperAll = () => {
                             <a href="https://drive.google.com/drive/u/0/folders/1Nbu6p6NN6GvnTy1nw-71mU2M4RmdOw_w" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2017</a>&nbsp;
                              <a href="https://drive.google.com/drive/u/0/folders/1Nql0Gj1Sj269UdY1Egu9dXVRnLmVEZso" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a></td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 305</th>
                         <td>Cloud Computing</td>
                         <td>
@@ -305,14 +305,14 @@ const PreviousYpaperAll = () => {
         <span className='SemHeading'><h2>SIXTH SEMESTER</h2></span>
         <table className='table'>
                 <thead>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='col'>Subjects</th>
                         <th scope='col'>Previous Year Question Paper</th>
                         <th scope='col'>Download</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 302</th>
                         <td>Data Ware Housing and Data Mining</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1HqRelA_5w7wpFgSplCNdLNOm0Lj2SB0k" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2014</a>&nbsp;
@@ -322,7 +322,7 @@ const PreviousYpaperAll = () => {
                            <a href="https://drive.google.com/drive/u/0/folders/1IE17gCTnt3qt8C_dX_HN1ForD4c64-rk" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a> &nbsp;
                            </td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 304#</th>
                         <td>E-Commerce</td>
                         <td><a href="https://drive.google.com/drive/u/0/folders/1Ed2sNM01UOY6nMyXSnbN7a5t9mDLSeAu" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2013</a>&nbsp;
@@ -332,7 +332,7 @@ const PreviousYpaperAll = () => {
                            <a href="https://drive.google.com/drive/u/0/folders/1EiCzN_hTViCA2FuN_WmsALJleRU8b9BK" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2017</a> &nbsp;
                            <a href="https://drive.google.com/drive/u/0/folders/1EkJDhhsWp2mDNQozKI81ASMfwUVd31Zj" target="_blank" rel="noopener noreferrer" className='btn btn-dark'>2018</a></td>
                     </tr>
-                    <tr>
+                    <tr className='forcolor'>
                         <th scope='row'>BCA 306</th>
                         <td>Internet of Things</td>
                         <td>

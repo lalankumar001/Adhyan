@@ -1,13 +1,12 @@
 import React from 'react'
 import "./Register.css"
-// import image from './Images/Homepageimage.png'
+// import image from './Images/Logo.jpg'
 import { FaUserTie,FaPhoneAlt,FaRegEnvelope } from "react-icons/fa";
 import { MdLock } from "react-icons/md";
 
 const Register = () => {
     return (
-      <div>
-
+      <div id='main'>
       <form>
       <h5 className="col-sm-6 offset-sm-3">REGISTER NEW ACCOUNT</h5>
       <div className="row mb-4">
@@ -38,6 +37,7 @@ const Register = () => {
           </div>
       </div>
     </form>
+
     </div>
   )
 }

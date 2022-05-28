@@ -80,7 +80,7 @@
 }
 /* Social media icon css here */
 .container  .navbar-nav{
-  margin-top: -30%;
+  margin-top: -36%;
   margin-left: 90%;
   position: fixed;
   overflow: auto;
@@ -90,7 +90,6 @@
 .container .btn{
   font-size: 22px;
 }
-
 /* MCQ section css */
 .MCQ_card{
   width: 100%;
@@ -181,9 +180,10 @@ margin-top: 1%;
 margin-bottom: 1%;
 margin-left: 3%;
 font-family: 'Times New Roman', Times, serif;
-color: rgb(184, 224, 22);
+color: rgb(118, 231, 93);
 font-size: 20px;
-border: 1px solid rgb(208, 11, 11);
+font-weight: 900;
+border: 1px solid rgb(19, 240, 163);
 background-color: rgb(32, 30, 36);
 }
 .Practical_card button:hover{
@@ -192,3 +192,148 @@ background-color: rgb(32, 30, 36);
   background-color: #17e68d;
   box-shadow: 0 0 10px #3ec415 , 0 0 40px #2196f3 , 0 0 80px #2196f3;
 }
+.Practical_Code h5{
+  margin-left: 5%;
+  padding: 0%;
+
+}
+/* code compiler button */
+.Code_Compiler{
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  color: azure;
+  margin-right: 1%;
+  border: 3px solid blue;
+  background-color: rgb(32, 30, 36);
+}
+button a{
+  text-decoration: none;
+}
+
+/* HOme page Css Here*/
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.site-header {
+  width: 100%;
+  height: 88vh;
+  background: #0f8a9d;
+  background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+
+}
+section{ 
+  display: flex;  
+}
+
+.leftside {
+   width: 45%;
+   height: auto;
+  overflow: hidden; 
+    margin-top: 20px;
+  }
+.leftside img{  
+  width: 600px;
+    height: 500px;
+  border-radius: 0% 100% 13% 87% / 53% 50% 50% 47% ;
+  }
+
+.rightside{ 
+  width: 55%; 
+  height: 300px;
+   color: white; 
+   text-align: center; 
+   margin-top: 80px; 
+   padding: 40px;
+  }
+
+.rightside h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+   } 
+
+.rightside p {  
+  font-size: 2.1rem;
+   padding: 20px 0; }
+
+.rightside_btn{
+  color: rgb(213, 182, 194); 
+  justify-content: space-around;
+  /* margin-left: 60%; */
+  float: right;
+  margin-right: 4%;
+  margin-top: -4.5%;
+  height: auto;
+  overflow: hidden; 
+}
+
+#main{
+  width: 100%;
+  height: 500px;
+} */
+ #main h1{
+  font-size: 40px;
+  text-align: center;
+}
+main .rightside , .leftside{
+  width: 50%;
+  height: 100%;
+} 
+.leftside img{
+  width: 400%;
+  height: 380px;
+  padding: 2px;
+}
+@media (max-width:786px) {
+
+  #main h1{
+    color: white;
+  }
+  .rightside .h1 , .p{
+    font-size: 45px;
+    color: blue;
+    text-align: justify;
+  }
+  .img{
+    width: 100%;
+    height: auto%;
+  }
+}
+
+.rightside_btn .first_btn, .second_btn{
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 50px;
+  letter-spacing: 0;
+  box-shadow: 0px 10px 30px rgba(255, 77, 225, 2.3);
+}
+.rightside .first_btn:hover, .second_btn:hover{
+  margin-right: 50px;
+  color: #9309f0;
+  background-color: #c4e21b;
+  box-shadow: 0 0 10px #0e4496 , 0 0 40px #d13e12 , 0 0 80px #e31422;
+}
+.first_btn:hover{
+  color: #9309f0;
+  background-color: #c4e21b;
+  box-shadow: 0 0 10px #0e4496 , 0 0 40px #d13e12 , 0 0 80px #e31422;
+}
+/* Home page Css End Here */

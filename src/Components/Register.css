@@ -46,3 +46,54 @@ img{
   width:850px;
   height: 550px;
 }
+
+/* learning How the Media query works */
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body , html{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 500px;
+} */
+/* #main h1{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+main .text , .img{
+  width: 50%;
+  height: 100%;
+ border: 1px solid black;
+} */
+/* .text p{
+  font-size: 28px;
+  padding: 30px;
+  text-align: justify;
+}
+.img img{
+  width: 100%;
+  height: 380px;
+  padding: 30px;
+}
+@media (max-width:786px) {
+
+  #main h1{
+    color: red;
+  }
+  .text p{
+    font-size: 45px;
+    color: blue;
+    text-align: justify;
+  }
+  .img{
+    width: 100%;
+    height: auto%;
+  }
+} */

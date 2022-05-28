@@ -141,15 +141,3 @@ header{
 .card-header{
     background-color: rgb(217, 15, 123);
 }
-
-
-/* Below code for css of moving left right words */
-  /* .Portfolio_logo h2{
-     text-transform: unset;
-     font-size: 1.6rem;
-     animation: logoagepiche 2s linear infinite;
-     animation-direction: alternate;
-}
- @keyframes logoagepiche{
-    from{padding-left: 70px;}
-     to {padding-right: 70px;} */

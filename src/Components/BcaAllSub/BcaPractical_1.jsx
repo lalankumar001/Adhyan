@@ -64,6 +64,35 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
                     <div className='Practical_Code'>
+
+                    <h5>
+<code>{`#include <stdio.h>`}</code>
+<br />
+<code>{`#include <conio.h>`}</code>
+<br />
+        <code>void main()</code> <br/>
+        <code>{`{`}</code> <br/> 
+        <code>clrscr(); <br />
+    int a,b,c,d;<br /> 
+    printf("Enter 3 Numbers\n: ");<br />
+    scanf("%d%d%d",&a,&b,&c);<br />
+    if(a>b) <br />
+    {
+    
+    }
+
+
+    getch();<br />
+    return 0;<br />
+    <code>{`}`}</code> <br/>
+    </code>
+         </h5>
+
+
+
+
+
+
                      {/* <a href="https://onlinegdb.com/6SpbRaFs1" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a> */}
                      </div>
                     

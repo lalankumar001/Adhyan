@@ -1,0 +1,100 @@
+.contact_form{
+    width: 99%;
+    height: 86vh;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #e841dd;
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+
+}
+.contact_form h1{
+    color: black;
+}
+.contact_form_title{
+    /* background-color: blue; */
+    box-sizing: border-box;
+    /* border: 5px solid red; */
+    border-radius: 6px;
+}
+.contact_form_button{
+    background-color: #0f8a9d;
+}
+.contact_form_button .btn{
+    font-size: 20px;
+    margin-left: 40%;
+    color: black;
+    background-color: #b0f542;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+/* #contact_form{ */
+    /* background-color: #0f8a9d; */
+/* } */
+/* Your name email or address border css */
+#contact_form_name , #contact_form_Email , #contact_form_Number , #contact_form_student{
+    border-radius: 30px;
+    border: 2px solid black;
+}
+  input{
+    padding: 10px;
+    font-size: 1em;
+    /* background-color: rgb(16, 16, 16); */
+  }
+  input::placeholder {
+    /* color:#19f528; */
+    color:#95c6cc;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  @media (max-width:700px) {
+    input{
+        width: 100%;
+        height: 10%;
+    }
+    }
+
+  /* textarea{ */
+      /* background-color:#121212; */
+  /* } */
+  textarea::placeholder{
+    color:#95c6cc;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+/* social icons */
+  .ContactUs{
+    /* color: black; */
+    font-size: 45px;
+    margin-top: 30%;
+    margin-left: 33%;
+}  
+.ContactUs a{
+    text-decoration: none;
+    color: black;
+}
+#gitIcon :hover{
+    font-size: 60px;
+}
+#LinkedinIcon :hover{
+    font-size: 60px;
+}  
+#InstaIcon :hover{
+    font-size: 60px;
+}  
+#MailIcon :hover{
+    font-size: 60px;
+}  
+#TwitterIcon :hover{
+    font-size: 60px;
+}  
+@media (min-width:400px) and (max-width:900px) {
+#MessageBox{
+    width: 100%;
+    height: 10%;
+}
+}

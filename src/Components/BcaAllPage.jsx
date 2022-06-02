@@ -18,7 +18,7 @@ const AdhyanHome = () => {
   <span className='AllpageHome'>
     <NavLink to="/Contact/BcaAllPage/BcaMath_1" className='btn btn-info'>Mathematic-1</NavLink> &nbsp;
     <NavLink to="/Contact/BcaAllPage/BcaCprogramming" className='btn btn-info'>C Progamming </NavLink> &nbsp;
-    <NavLink to="/Contact/BcaAllPage/BcaComputerIt" className='btn btn-info'>Fundamental Of Computer And IT</NavLink> &nbsp; 
+    <NavLink to="/Contact/BcaAllPage/BcaComputerIt" className='btn btn-info'>Fundamentals Of Computer And IT</NavLink> &nbsp; 
     <NavLink to="/Contact/BcaAllPage/BcaWebTech" className='btn btn-info'>Web Technology</NavLink> &nbsp;
     <NavLink to="/Contact/BcaAllPage/BcaTechnicalCommunication" className='btn btn-info'>Technical Communication</NavLink> &nbsp;
     </span>

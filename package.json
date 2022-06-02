@@ -16,6 +16,7 @@
 		"pdfjs-dist": "^2.12.313",
 		"popper.js": "^1.16.1",
 		"react": "^17.0.2",
+		"react-doc-viewer": "^0.1.5",
 		"react-dom": "^17.0.2",
 		"react-icons": "^4.3.1",
 		"react-pdf": "^5.6.0",

@@ -19,16 +19,25 @@ const Login = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <NavLink  activeClassName="menu_active" className="nav-link"  to="/Home">Home</NavLink>
+          <NavLink  activeClassName="menu_active" className="nav-link"  id='NavBarLinkFirst' to="/Home">Home</NavLink> 
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="/Contact">ContactUs</NavLink>
+          <NavLink activeClassName="menu_active" className="nav-link" id='NavBarLinkSecond'  to="/Contact">Contact Us</NavLink> 
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink  activeClassName="menu_active"className="nav-link" to="/Login">Login</NavLink>
         </li>
         <li className="nav-item">
         <NavLink  activeClassName="menu_active" className="nav-link" to="/Register">Register</NavLink>
+        </li> */}
+  <li className="nav-item">
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkThird'  to="/Register">About Us</NavLink> 
+        </li>
+        <li className="nav-item">
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkFour'  to="/Register">Projects</NavLink> 
+        </li>
+        <li className="nav-item">
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkFive'  to="/Register">Ppts</NavLink>
         </li>
       </ul>
     </div>

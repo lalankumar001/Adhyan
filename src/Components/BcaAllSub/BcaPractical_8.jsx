@@ -1,11 +1,11 @@
 import React from 'react'
+import MovingNotics from '../MovingNotics'
 
 const BcaPractical_8 = () => {
     return (
         <div className='FirstPractical'>
-             <span className='BcaHeading'>BACHELOR OF COMPUTER APPLICATIONS (BCA) DETAILED SYLLABUS</span>
-            <hr />
-            <h3>Practical Paper: Web Tech</h3>
+            <MovingNotics />
+            <h3>Practical Paper: Java</h3>
             <hr />
             <table className='table table-dark table-striped'>
                 <thead>

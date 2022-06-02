@@ -30,7 +30,7 @@ const Home = () => {
  <button className='second_btn'> <NavLink activeClassName="menu_active" className="nav-link" to="/Contact/BtechAllPage">BTECH</NavLink> </button>
  <button className='second_btn'> <NavLink activeClassName="menu_active" className="nav-link" to="/Contact/BtechAllPage">MTECH</NavLink> </button>
  </span>
-<SocialMediaIcons />
+{/* <SocialMediaIcons /> */}
         </div>
       
         

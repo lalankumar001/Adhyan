@@ -3,10 +3,8 @@ import MovingNotics from '../MovingNotics'
 
 const BcaPractical_1 = () => {
     return (
-        <div className='FirstPractical'>
+        <div className='FirstPractical' id='PracticalQuestiona'>
             <MovingNotics />
-            <span className='BcaHeading'><h2>BACHELOR OF COMPUTER APPLICATIONS (BCA) DETAILED SYLLABUS</h2></span>
-            <hr />
             <h3>Practical Paper: Programming Using C</h3>
             <hr />
             <table className='table table-dark table-striped'>
@@ -17,46 +15,22 @@ const BcaPractical_1 = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        {/* <th>01</th> */}
+{/* 01 */}
                         <td>01. Write a program to convert temperature from Celsius to Fahrenheit by taking input from the user.</td>
                     </tr>
                     <div className='Practical_Code'>
                         <div>
-    {/* code write here in code tag */}
-<h5>
-<code>{`#include <stdio.h>`}</code>
-<br />
-<code>{`#include <conio.h>`}</code>
-<br />
-<code>float convertCelFahrenheit(float c)</code>
-<br />
-        <code>{`{`}</code> <br/>
-        <code>  return ((c * 9.0 / 5.0) + 32.0);</code> <br/>
-        <code>{`}`}</code> <br/>
-        <code>int main()</code> <br/>
-        <code>{`{`}</code> <br/> 
-        <code>clrscr(); <br />
-    float celsius, fahrenheit;<br /> 
-    printf("Enter temperature in Celsius: ");<br />
-    scanf("%f", &celsius);<br />
-    {/* called function to convert celsius to fahrenheit */}
-    fahrenheit = convertCelFahrenheit(celsius);<br />
-    printf("%.2f Celsius = %.2f Fahrenheit", celsius, fahrenheit);<br />
-    getch();<br />
-    return 0;<br />
-    <code>{`}`}</code> <br/>
-    </code>
-         </h5>
-             </div>
-             </div>
+                        <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21629&authkey=AHuZvm84fA2cclg&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                      </div>
+                  </div>
+ {/* button for compile code online */}
              <div className='Code_Compiler'>
             <button className='btn btn-'> <a href="https://onlinegdb.com/L0upfXURp" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
                     </div>
-{/* button for compile code online */}
-                    {/* <a href="https://onlinegdb.com/L0upfXURp" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a> */}
                     </tbody>
                     </table>
-
+                    <br />
+{/* 02 */}
                     <table className='table table-dark table-striped' >
                     <tbody>
                     <tr>
@@ -66,38 +40,14 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
                     <div className='Practical_Code'>
-
-                    <h5>
-<code>{`#include <stdio.h>`}</code>
-<br />
-<code>{`#include <conio.h>`}</code>
-<br />
-        <code>void main()</code> <br/>
-        <code>{`{`}</code> <br/> 
-        <code>clrscr(); <br />
-    int a,b,c,d;<br /> 
-    printf("Enter 3 Numbers\n: ");<br />
-    scanf("%d%d%d",&a,&b,&c);<br />
-    if(a>b) <br />
-    {
-    
-    }
-
-
-    getch();<br />
-    return 0;<br />
-    <code>{`}`}</code> <br/>
-    </code>
-         </h5>
-
-
-
-
-
-
-                     {/* <a href="https://onlinegdb.com/6SpbRaFs1" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a> */}
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21630&authkey=ABMH8wVP-3fpli8&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+                       <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/RrIoLJCa-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
                      </div>
-                    
+                     <br />
+  {/*03 */}
                      <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -106,7 +56,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21631&authkey=AA0NyzkKW-33Lhc&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+                    <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+ {/* 04 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -124,7 +80,14 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21632&authkey=APrIwKNm_FQFP5k&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+{/* button for compile code online */}
+                      <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/KxiDdtKxU" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+
+ {/* 05 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -133,7 +96,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21633&authkey=AHRV7C497LHiU7I&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                     {/* button for compile code online */}
+                     <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/xjZoQuTDm" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+{/* 06 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -142,16 +111,28 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21634&authkey=ALZ-3PwSJd6hNOk&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+                    <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/b8vQDd1EC" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+{/* 07 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
                         <th>07</th>
-                        <td>Write a program to check if a CO2 string is palindrome or not.</td>
+                        <td>Write a program to check a string is palindrome or not.</td>
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21635&authkey=AMYUoMput7blmnI&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+                    <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/MO4dGMF_u" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+{/* 08 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -160,7 +141,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21636&authkey=AN_-n4Vz3ueOaM0&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/rfpgJBsuh" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+{/* 09 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -169,7 +156,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21637&authkey=AHl1I0bjdCQNiLU&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/QXjZ3BEodW" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+{/* 10 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -178,7 +171,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21638&authkey=ALDzyhuzqfVNaA0&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+  {/* 11 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -188,6 +187,13 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+                     {/* button for compile code online */}
+                     <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+{/* 12 */}
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -201,6 +207,12 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -210,6 +222,12 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -219,6 +237,12 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -227,6 +251,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
+
+
+                     {/* button for compile code online */}
+                     <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
 
                     <table className='table table-dark table-striped'>
                     <tbody>
@@ -238,6 +269,13 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+                     {/* button for compile code online */}
+                     <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -247,6 +285,12 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
@@ -255,6 +299,13 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
+
+
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
 
                     <table className='table table-dark table-striped'>
                     <tbody>
@@ -266,15 +317,31 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
 
+
+                     {/* button for compile code online */}
+                     <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />
+
+
                     <table className='table table-dark table-striped'>
                     <tbody>
                     <tr>
                         <th>20</th>
                         <td>Write a program to read time in string format and extract hours, minutes and second also check time validity</td>
                     </tr>
-
                 </tbody>
             </table>
+
+
+ {/* button for compile code online */}
+ <div className='Code_Compiler'>
+                         <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
+                         </div>
+                         <br />            
+            
+            
         </div>
     )
 }

@@ -51,11 +51,11 @@ The webpage helps students as here they can find updated curriculum of GGSIPU Co
  </span>
   </div> */}
 
-<div className="card">
+{/* <div className="card">
 <img src={LalanPic} alt='ProfilePic'></img>
     <li><h2>What is Data Mining? </h2></li>
       
-      </div>
+      </div> */}
 
 
  </section>

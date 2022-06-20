@@ -1,9 +1,9 @@
 import React from 'react'
 import MovingNotics from './MovingNotics'
 
-const AllPPt = () => {
+const Ppts = () => {
   return (
-    <div className='FirstPractical'>
+<div className='FirstPractical'>
     <MovingNotics />
     <h3>Ppts : </h3>
     <hr />
@@ -33,5 +33,4 @@ const AllPPt = () => {
   )
 }
 
-export default AllPPt
-
+export default Ppts

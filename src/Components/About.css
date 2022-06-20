@@ -1,0 +1,133 @@
+
+/* About us page all css here */
+#AboutpageFirstDiv{
+background-color: black;
+}
+#AboutpageFirstDiv h1{
+    color: aqua;
+    margin-left: 1%;
+}
+#AboutpageFirstDiv h3{
+    color: rgb(11, 197, 253);
+    text-align: center;
+}
+.AboutPagePeragraph{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 97%;
+    text-align: justify;
+}
+
+.leftsidepartOne img{
+width: 50%;
+height: 45vh;
+margin-left: 65%;
+margin-top: 3%;
+border: 1px solid black;
+border-radius: 30%;
+}
+#Pname{
+    text-align: center;
+    margin-right: -80%;
+    /* float: right; */
+    margin-top: 2%;
+}
+.leftsidepartOne h6, h5{
+    margin-left: 50%;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+
+/* .rightsidepartTwo img{
+    width: 50%;
+    height: 40vh;
+    margin-left: 65%;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+#pnametushar{
+    margin-top: 1%;
+    margin-left: 70%;
+    width: 100%;
+    font-size: 35px;
+    color: aqua;
+
+}
+.rightsidepartTwo p{
+    color: black;
+    margin-left: 40%;
+    width: 100%;
+    font-size: 20px;
+}
+.rightsidepartTwo h5{
+    width: 100%;
+    margin-left: 40%;
+} */
+
+.site-headerAbout {
+    margin-top: 2%;
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(57deg, #15211f , #1E4D92 ); 
+    /* background radius */
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
+    clip-path: polygon(0% 0%, 0% 100%, 80% 100%, 100% 0%);
+    
+  }
+  section{ 
+    display: flex;  
+  }
+
+  /* founder social media icons link css */
+  .FounderSocialMediaOne{
+    width: 100%;
+    margin-left: 50%;
+    font-size: 35px;
+    justify-content: space-around;
+  }
+  .FounderSocialMediaTwo{
+    margin-left: 60%;
+    font-size: 35px;
+    justify-content: space-around;
+  }
+  .FounderSocialMediaOne #git, #lndin , #insta, #twter{
+    color: black;
+  }
+  .FounderSocialMediaOne :hover{
+    color: aqua;
+  }
+.FounderSocialMediaTwo :hover{
+    color: aqua;
+
+}
+
+.FounderSocialMediaTwo #gitone, #lndinone, #instaone , #twterone{
+    color: black;
+}
+@media (max-width:600px) {
+  .leftsidepartOne img{
+    width: 100%;
+    margin-left: 5%;
+    border-radius: 50%;
+  }
+  .leftsidepartOne h6 , h5{
+    font-size: 10px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .leftsidepartOne #pname{
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,9 +1,19 @@
 import React from 'react'
 
 const BcaCG = () => {
+
+    const togglethem = () => {
+
+        alert('Hello')
+        
+    };
+
     return (
         <div className='CG'>
               <span className='BcaHeading'><h2> BACHELOR OF COMPUTER APPLICATIONS (BCA) DETAILED SYLLABUS</h2></span>
+              <div>
+              <a href="" className='btn btn-primary' onClick={() => togglethem ()}>toggle Mode</a>
+              </div>
             <hr />
             <div>
             <h3>Paper: Computer Graphics </h3>

@@ -1,14 +1,13 @@
 import React from 'react'
-import AllPPt from './AllPPt'
-
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
 const Login = () => {
+
   return (
     <div>
-      <h1>you are at login page</h1>
+      
 
-      <div>
-        <AllPPt />
-      </div>
     </div>
   )
 }

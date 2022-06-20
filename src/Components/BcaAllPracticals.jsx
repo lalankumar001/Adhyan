@@ -17,9 +17,9 @@ const BcaAllPracticals = () => {
                <NavLink to="/Contact/BcaAllPage/BcaPractical_6"><button><h2>6<sup>th</sup>    Practical</h2>Front End Design Tool VB.net</button></NavLink>
                <NavLink to="/Contact/BcaAllPage/BcaPractical_7"><button><h2>7<sup>th</sup>    Practical</h2>C++ Programming </button></NavLink>
                <NavLink to="/Contact/BcaAllPage/BcaPractical_8"><button><h2>8<sup>th</sup>    Practical</h2>Java Programming</button></NavLink>
-               <NavLink to="/Contact/BcaAllPage/BcaPractical_11"><button><h2>9<sup>th</sup>   Practical</h2>Software Engineering</button></NavLink>
-               <NavLink to="/Contact/BcaAllPage/BcaPractical_9"><button><h2>10<sup>th</sup>   Practical</h2>Linux Operating System</button></NavLink>
-               <NavLink to="/Contact/BcaAllPage/BcaPractical_10"><button><h2>11<sup>th</sup>  Practical</h2>Computer Graphics</button></NavLink>
+               <NavLink to="/Contact/BcaAllPage/BcaPractical_9"><button><h2>9<sup>th</sup>   Practical</h2>Database Management System</button></NavLink>
+               <NavLink to="/Contact/BcaAllPage/BcaPractical_10"><button><h2>10<sup>th</sup>   Practical</h2>Linux Operating System</button></NavLink>
+               <NavLink to="/Contact/BcaAllPage/BcaPractical_11"><button><h2>11<sup>th</sup>  Practical</h2>Computer Graphics</button></NavLink>
                <NavLink to="/Contact/BcaAllPage/BcaPractical_12"><button><h2>12<sup>th</sup>  Practical</h2>Internet Of Things</button></NavLink>
                
         </div>

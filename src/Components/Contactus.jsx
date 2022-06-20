@@ -41,7 +41,7 @@ message,
 }
 );
 if (res) {
-    alert ("Data Stroed")
+    alert ("Message has been sent")
     setUserData({
     name: "",
     email: "",

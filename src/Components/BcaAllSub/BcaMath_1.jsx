@@ -28,6 +28,15 @@ const BcaMath_1 = () => {
            <p><h4>GRAPHS :</h4>Introduction, Degree of a Vertex of a graph, Handshaking Theorem, types fo Graphs, Sub graph, Matrix representation of a graph, adjacent and incidence matrices, Isomorphic graphs, path and circuit (Floyd's and warshall algorithms), Connected graph, Hamiltonian graph, Euler graph coloring (Vertex, Edges and Map).</p>
         <hr />
          <span className='BcaHeading'>Notes start From here</span>
+
+         <div>
+         <iframe width="800" height="315" src="https://www.youtube.com/embed/zq0TuNqV0Ew" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscree></iframe>
+<hr />
+<br />
+<youtube>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/zq0TuNqV0Ew" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscree></iframe>
+</youtube>
+         </div>
         <div>
             
         </div>

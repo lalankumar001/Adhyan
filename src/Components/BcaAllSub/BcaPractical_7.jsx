@@ -16,14 +16,10 @@ const BcaPractical_7 = () => {
                 <tbody>
                     <tr>
                         {/* <th>01</th> */}
-                        <td>01. Write a program to convert temperature from Celsius to Fahrenheit by taking input from the user.</td>
+                        <td>01.  PROGRAM TO INTERCHANGE TWO VARIABLES WITHOUT USING THIRD VARIABLE .</td>
                     </tr>
                     <div className='Practical_Code'>
-                        <div>
-           <h5>
-                <iframe src="https://onedrive.live.com/embed?cid=1478486458AFD5D4&resid=1478486458AFD5D4%218030&authkey=ABDTPhmWLlTe4N8&em=2" width="90%" height="500" frameborder="0" scrolling="no"></iframe>
-            </h5>
-             </div>
+                   
              </div>
                     {/* button for compile code online */}
              <div className='Code_Compiler'>
@@ -32,6 +28,10 @@ const BcaPractical_7 = () => {
                     </tbody>
                     </table>
 
+                    <div id='forDownloadingFile'>
+    <h3>For Downloading Complete file</h3>
+    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21663&authkey=ABMbH-fPVpgPj_E&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+</div>
         </div>
     )
 }

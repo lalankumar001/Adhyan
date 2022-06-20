@@ -5,7 +5,7 @@ const BcaPractical_10 = () => {
     return (
 <div className='FirstPractical'>
             <MovingNotics />
-            <h3>Practical Paper: Computer Graphics</h3>
+            <h3>Practical Paper: Linux</h3>
             <hr />
             <table className='table table-dark table-striped'>
                 <thead>
@@ -16,13 +16,11 @@ const BcaPractical_10 = () => {
                 <tbody>
                     <tr>
                         {/* <th>01</th> */}
-                        <td>01. Write a program to convert temperature from Celsius to Fahrenheit by taking input from the user.</td>
+                        <td>01. LINUX COMMANDS</td>
                     </tr>
                     <div className='Practical_Code'>
                         <div>
-           <h5>
-                <iframe src="https://onedrive.live.com/embed?cid=1478486458AFD5D4&resid=1478486458AFD5D4%218030&authkey=ABDTPhmWLlTe4N8&em=2" width="90%" height="500" frameborder="0" scrolling="no"></iframe>
-            </h5>
+        
              </div>
              </div>
                     {/* button for compile code online */}
@@ -31,6 +29,8 @@ const BcaPractical_10 = () => {
                     </div>
                     </tbody>
                     </table>
+
+                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21668&authkey=ADXrTsheVRg2QPI&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
 
         </div>
     )

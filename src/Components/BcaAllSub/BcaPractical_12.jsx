@@ -1,11 +1,12 @@
 import React from 'react'
 import MovingNotics from '../MovingNotics'
 
-const BcaPractical_9 = () => {
-    return (
-<div className='FirstPractical'>
+const BcaPractical_12 = () => {
+  return (
+
+    <div className='FirstPractical'>
             <MovingNotics />
-            <h3>Practical Paper: Database Management System</h3>
+            <h3>Practical Paper: internet of things</h3>
             <hr />
             <table className='table table-dark table-striped'>
                 <thead>
@@ -16,13 +17,16 @@ const BcaPractical_9 = () => {
                 <tbody>
                     <tr>
                         {/* <th>01</th> */}
-                        {/* <td>01. Write a program to convert temperature from Celsius to Fahrenheit by taking input from the user.</td> */}
+                        <td>Comming soon........</td>
                     </tr>
                     <div className='Practical_Code'>
+
                         <div>
-           <h5>
-                {/* <iframe src="https://onedrive.live.com/embed?cid=1478486458AFD5D4&resid=1478486458AFD5D4%218030&authkey=ABDTPhmWLlTe4N8&em=2" width="90%" height="500" frameborder="0" scrolling="no"></iframe> */}
-            </h5>
+    <h5>
+        {/* pleaase write code here */}
+
+        </h5>                
+        
              </div>
              </div>
                     {/* button for compile code online */}
@@ -31,9 +35,14 @@ const BcaPractical_9 = () => {
                     </div>
                     </tbody>
                     </table>
-
+                    <div id='forDownloadingFile'>
+    {/* <h3>For Downloading Complete file</h3> */}
+    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21660&authkey=ABcagbw8A2sjxJU&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
+</div>
+    
         </div>
-    )
+
+  )
 }
 
-export default BcaPractical_9
+export default BcaPractical_12

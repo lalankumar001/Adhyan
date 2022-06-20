@@ -8,11 +8,13 @@ const AdhyanHome = () => {
     return (
         <div>
             <div>
+            <MovingText />
               <MiniNavBar />
-              <MovingText />
+<span id='pagethik'>
                 {/* fOR fIRST SEMESTER   for code click leftside arrow*/}
-           <h1 className='SemHeading'>ACADEMIC YEAR 2021-22 ONWARDS... &nbsp; &ensp; <NavLink to="/Contact/BcaAllPage/BcaSyllabusUpto_2021" className='btn btn-danger'>Upto Academic Year 2020-21</NavLink></h1> 
+              <h1 className='SemHeading'>ACADEMIC YEAR 2021-22 ONWARDS... &nbsp; &ensp; <NavLink to="/Contact/BcaAllPage/BcaSyllabusUpto_2021" className='btn btn-danger'>Upto Academic Year 2020-21</NavLink></h1> 
            <h1 className='SemHeading'>BCA FIRST SEMESTER</h1>
+           </span>
            <div className="card text-center">
   <div className="card-body">
   <span className='AllpageHome'>
@@ -28,7 +30,7 @@ const AdhyanHome = () => {
   <div className="card-body">
   <NavLink to="/Contact/BcaAllPage/BcaPractical_1" className='btn btn-info'>C Progamming Practical</NavLink> &nbsp;
   <NavLink to="/Contact/BcaAllPage/BcaPractical_2" className='btn btn-info'>Fundamentals Of Computer and IT Practical</NavLink> &nbsp;
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_8" className='btn btn-info'>Web Technology Practical</NavLink> &nbsp;
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_3" className='btn btn-info'>Web Technology Practical</NavLink> &nbsp;
   </div>
   </div>
 </div>
@@ -48,10 +50,10 @@ const AdhyanHome = () => {
     {/* second semester all practical file here */}
     <div className="semHeading"><h1> Practicals </h1></div>
   <div className="card-body">
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_1" className='btn btn-info'>C Progamming Practical</NavLink> &nbsp;
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_3" className='btn btn-info'>Data Structure Practical</NavLink> &nbsp;
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_4" className='btn btn-info'>DBMS Practical</NavLink> &nbsp;
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_5" className='btn btn-info'>FEDT Vb.net Practical</NavLink> &nbsp;
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_4" className='btn btn-info'>Web Based Programming</NavLink> &nbsp;
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_5" className='btn btn-info'>Data Structure Practical</NavLink> &nbsp;
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_9" className='btn btn-info'>DBMS Practical</NavLink> &nbsp;
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_6" className='btn btn-info'>FEDT Vb.net Practical</NavLink> &nbsp;
   </div>
   </div>
   </div>
@@ -71,7 +73,7 @@ const AdhyanHome = () => {
     {/* 3rd semester all practical file here */}
     <div className="semHeading"><h1> Practicals </h1></div>
   <div className="card-body">
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_6" className='btn btn-info'>C++ Progamming Practical</NavLink>
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_7" className='btn btn-info'>C++ Progamming Practical</NavLink>
     </div>
   </div>
   </div>
@@ -91,7 +93,8 @@ const AdhyanHome = () => {
     {/* FORTH SEMESTER ALL PRACTICAL HERE */}
     <div className="semHeading"><h1> Practicals </h1></div>
   <div className="card-body">
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_7" className='btn btn-info'>Java Practical</NavLink>
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_8" className='btn btn-info'>Java Practical</NavLink> &nbsp;
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_8" className='btn btn-info'>Software Engineering</NavLink>
   </div>
   </div>
   </div>
@@ -110,7 +113,7 @@ const AdhyanHome = () => {
     <div className="semHeading"><h1> Practicals </h1></div>
   <div className="card-body">
   <NavLink to="/Contact/BcaAllPage/BcaPractical_10" className='btn btn-info'>Linux Practical</NavLink> &nbsp;
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_9" className='btn btn-info'>Computer Graphics Practical</NavLink>
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_11" className='btn btn-info'>Computer Graphics Practical</NavLink>
   </div>
   </div>
   </div>
@@ -127,10 +130,13 @@ const AdhyanHome = () => {
     {/* all sixth semester practical file here */}
     <div className="semHeading"><h1> Practicals </h1></div>
   <div className="card-body">
-  <NavLink to="/Contact/BcaAllPage/BcaPractical_1" className='btn btn-info'>C Progamming Practical</NavLink>
+  <NavLink to="/Contact/BcaAllPage/BcaPractical_12" className='btn btn-info'>Internet Of Things</NavLink>
    </div>
+  
   </div>
+  
   </div>
+  
 
 <AllPagefooter />
         </div>

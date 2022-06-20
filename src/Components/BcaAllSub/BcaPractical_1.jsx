@@ -20,7 +20,49 @@ const BcaPractical_1 = () => {
                     </tr>
                     <div className='Practical_Code'>
                         <div>
-                        <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21629&authkey=AHuZvm84fA2cclg&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                      <h5>
+                          {/* please write code here in code tag */}
+
+                          <code>{`#include <stdio.h>`}</code>
+                          <br />
+                          <code>{`#include <conio.h>`}</code>
+                          <br />
+                          <code>
+                              float convertCelFahrenheit(float c)
+                        <br />
+                        <code>{`{`} </code>
+                        <br />    
+                        <code>return ((c * 9.0 / 5.0) + 32.0);</code>
+                            <br />
+                            <code>{`}`} </code>
+                          <br />
+                            int main()
+                            <br />
+                            {
+                                       <code>{`clrscr();`}</code>
+                            }
+
+                              float celsius, fahrenheit;
+                              <br />
+                            printf("Enter temperature in Celsius: ");
+                            <br />
+                            scanf("%f", &celsius);
+                            {/* //called function to convert celsius to fahrenheit */}
+                                <br />
+                                fahrenheit = convertCelFahrenheit(celsius);
+                                 <br />
+                                 printf("%.2f Celsius = %.2f Fahrenheit", celsius, fahrenheit);
+                                 <br />
+                                 getch();
+                                 <br />    
+                                 return 0;
+                                 <br />
+                                  }
+
+                          </code>
+
+                      </h5>
+                      
                       </div>
                   </div>
  {/* button for compile code online */}
@@ -40,7 +82,71 @@ const BcaPractical_1 = () => {
                     </tbody>
                     </table>
                     <div className='Practical_Code'>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21630&authkey=ABMH8wVP-3fpli8&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    <div>
+                    <h5>
+                        <code>{`#include <stdio.h>`}</code>
+                          <br />
+                          <code>{`#include <conio.h>`}</code>
+                          <br />
+                          <code>
+                              void main()
+                        <br />
+                        <code>{`{`} </code>
+                        <br />    
+                        <code>clrscr();</code>
+                            <br />
+                            <code>int a, b, c, d;</code>
+                            <br />
+                            printf("ENTER 3 NUMBERS\N");
+                            <br />
+                            scanf("%d%d%d",&a,&b,&c);
+                            <br />
+                            <code>{`if (a>b)`} </code>
+                            <br />
+                            <code>{`{`} </code>
+                            <br />
+                            <code>{`if(a<c)`} </code>
+                            <code>{`{`} </code>
+                            <br />
+                            printf('THE MAXIMUM IS %d',a);
+                            <code>{`}`} </code>
+                            <br />
+                            else
+                            <br />
+                            <code>{`{`} </code>
+                            <br />
+                            printf('THE MAZIMUM IS %d',c);
+                          <br />
+                          <code>{`} }`} </code>
+                          <br />
+                           elseif(b>c)
+                           <br />
+                           <code>{`{`} </code>
+                           <br />
+                           printf('THE MAXIMUM IS %d',b); <br />
+                           <code>{`}`} </code> <br />
+                           else 
+                           <br />
+                           <code>{`{`} </code>
+                           printf('THE MAXIMUM IS %d',c);
+                           <br />
+                           <code>{`}`} </code> <br />
+                           getct(); <br />
+                           }
+                          </code>
+
+</h5>
+
+
+
+
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
  {/* button for compile code online */}
                        <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/RrIoLJCa-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -56,7 +162,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21631&authkey=AA0NyzkKW-33Lhc&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21631&authkey=AA0NyzkKW-33Lhc&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
  {/* button for compile code online */}
                     <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -80,7 +186,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21632&authkey=APrIwKNm_FQFP5k&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21632&authkey=APrIwKNm_FQFP5k&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
 {/* button for compile code online */}
                       <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/KxiDdtKxU" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -96,7 +202,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21633&authkey=AHRV7C497LHiU7I&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21633&authkey=AHRV7C497LHiU7I&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
                      {/* button for compile code online */}
                      <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/xjZoQuTDm" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -111,7 +217,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21634&authkey=ALZ-3PwSJd6hNOk&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21634&authkey=ALZ-3PwSJd6hNOk&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
  {/* button for compile code online */}
                     <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/b8vQDd1EC" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -126,7 +232,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21635&authkey=AMYUoMput7blmnI&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21635&authkey=AMYUoMput7blmnI&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
  {/* button for compile code online */}
                     <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/MO4dGMF_u" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -141,7 +247,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21636&authkey=AN_-n4Vz3ueOaM0&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21636&authkey=AN_-n4Vz3ueOaM0&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
  {/* button for compile code online */}
  <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/rfpgJBsuh" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -156,7 +262,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21637&authkey=AHl1I0bjdCQNiLU&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21637&authkey=AHl1I0bjdCQNiLU&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
  {/* button for compile code online */}
  <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/QXjZ3BEodW" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -171,7 +277,7 @@ const BcaPractical_1 = () => {
                     </tr>
                     </tbody>
                     </table>
-                    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21638&authkey=ALDzyhuzqfVNaA0&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                    {/* <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21638&authkey=ALDzyhuzqfVNaA0&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe> */}
  {/* button for compile code online */}
  <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
@@ -339,8 +445,16 @@ const BcaPractical_1 = () => {
  <div className='Code_Compiler'>
                          <button className='btn btn-'><a href="https://onlinegdb.com/5Uxnre2_-" target="_blank" rel="noopener noreferrer">Click Here for compile the code</a></button>
                          </div>
-                         <br />            
-            
+                        <div id='forDownloadingFile'>
+                            <hr />
+                         <h3> Complet file for downloading</h3>
+                         <hr />
+                         <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21657&authkey=AGpNcLbYjdtxbMs&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+                         </div>
+
+
+
+        
             
         </div>
     )

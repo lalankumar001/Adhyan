@@ -31,13 +31,16 @@ const Login = () => {
         <NavLink  activeClassName="menu_active" className="nav-link" to="/Register">Register</NavLink>
         </li> */}
   <li className="nav-item">
-        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkThird'  to="/Register">About Us</NavLink> 
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkThird'  to="/About">About Us</NavLink> 
         </li>
         <li className="nav-item">
-        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkFour'  to="/Register">Projects</NavLink> 
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkFour'  to="/Project">Projects</NavLink> 
         </li>
         <li className="nav-item">
-        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkFive'  to="/Register">Ppts</NavLink>
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkFive'  to="/Ppt">Ppts</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink  activeClassName="menu_active"className="nav-link" id='NavBarLinkSix'    to="/Login">Login</NavLink>
         </li>
       </ul>
     </div>

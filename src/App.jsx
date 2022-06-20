@@ -129,6 +129,11 @@ import PyearQLinux from './Components/PreviousyearQpaper/PyearQLinux';
 import PyearQCG from './Components/PreviousyearQpaper/PyearQCG';
 import PreviousYpaperAll from './Components/PreviousyearQpaper/PreviousYpaperAll';
 import PyearQIot from './Components/PreviousyearQpaper/PyearQIot';
+import AboutUs from './Components/AboutUs';
+import Projects from './Components/Projects';
+import Ppts from './Components/Ppts';
+import BcaPractical_11 from './Components/BcaAllSub/BcaPractical_11';
+import BcaPractical_12 from './Components/BcaAllSub/BcaPractical_12';
 
 
 
@@ -188,6 +193,8 @@ function App() {
         <Route exact path ="/Contact/BcaAllPage/BcaNetworkSecurity" component={BcaNetworkSecurity} />
         <Route exact path ="/Contact/BcaAllPage/BcaNetworkProgramming" component={BcaNetworkProgramming} />
         <Route exact path ="/Contact/BcaAllPage/BcaPractical_10" component={BcaPractical_10} />
+        <Route exact path ="/Contact/BcaAllPage/BcaPractical_11" component={BcaPractical_11} />
+        <Route exact path ="/Contact/BcaAllPage/BcaPractical_12" component={BcaPractical_12} />
 
 {/* Btech all subjects components */}
         <Route exact path ="/Contact/BtechAllpage" component={BtechAllPage} />
@@ -260,6 +267,9 @@ function App() {
 
 
         <Route exact path ="/Contact" component={Contactus} />
+        <Route exact path ="/About" component={AboutUs} />
+        <Route exact path ="/Project" component={Projects} />
+        <Route exact path ="/Ppt" component={Ppts} />
         <Route exact path ="/Register" component={Register} />
         <Route exact path ="/Login" component={Login} />
         <Redirect to="/" />

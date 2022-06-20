@@ -131,6 +131,11 @@ const BcaPractical_2 = () => {
                     </tr>
                   </tbody>
             </table>
+<div id='forDownloadingFile'>
+    <h3>For Downloading Complete file</h3>
+    <iframe src="https://onedrive.live.com/embed?cid=A86E7BB81D637AE8&resid=A86E7BB81D637AE8%21658&authkey=AMs0OWzBJGcBIrQ&em=2" width="99%" height="500" frameborder="0" scrolling="no"></iframe>
+</div>
+
         </div>
     )
 }

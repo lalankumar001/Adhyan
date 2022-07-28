@@ -214,7 +214,7 @@ const DWDMMcq = () => {
       </div>
   
       <div className="card">
-    <li><h2> 13.	The age values for the data tuples are (in increasing order) 13,15,16,16,19,20,20,21,22,22,25,25,25,25,30,33,33,35,35,35,35,36,40,15,46,52,70  what is the five number summary of the data? </h2></li>
+    <li><h2>The age values for the data tuples are (in increasing order) 13,15,16,16,19,20,20,21,22,22,25,25,25,25,30,33,33,35,35,35,35,36,40,15,46,52,70  what is the five number summary of the data? </h2></li>
       <div className='AnswerMCQ'>
         <h3>A) 13,20,25,35,70</h3>
         <h4>B) 70,35,25,20,13</h4>
@@ -435,75 +435,75 @@ const DWDMMcq = () => {
       </div>
   
       <div className="card">
-    <li><h2> question  type here </h2></li>
+    <li><h2> Which tier of the data warehouse architecture contains query and reporting tools, analysis tools, and daata mining tools? </h2></li>
       <div className='AnswerMCQ'>
-        <h4>A) Scalar and Raster</h4>
-        <h4>B) Vector and Raster</h4>
-        <h3>C) Vector and Raster</h3>
-        <h4>D) None of these</h4>
+        <h3>A) Top</h3>
+        <h4>B) Middle</h4>
+        <h3>C) Bottom</h3>
+        <h4>D) Both A and B</h4>
       </div>
        <button>
         <details>
           <summary>Click to view Solution</summary>
-          <h2>Correct Answer is <b>C) Vector and Raster</b></h2>
+          <h2>Correct Answer is <b>A) Top </b></h2>
           <p>Explanation : Comming Soon</p>
         </details>
       </button>
       </div>
   
       <div className="card">
-    <li><h2> question  type here </h2></li>
+    <li><h2> What is meant as frequency of occurrence of an itemse? </h2></li>
       <div className='AnswerMCQ'>
-        <h4>A) Scalar and Raster</h4>
-        <h4>B) Vector and Raster</h4>
-        <h3>C) Vector and Raster</h3>
-        <h4>D) None of these</h4>
+        <h4>A) Support</h4>
+        <h4>B) Confidence</h4>
+        <h3>C) Support Count</h3>
+        <h4>D) Rules</h4>
       </div>
        <button>
         <details>
           <summary>Click to view Solution</summary>
-          <h2>Correct Answer is <b>C) Vector and Raster</b></h2>
+          <h2>Correct Answer is <b>C) Support Count</b></h2>
           <p>Explanation : Comming Soon</p>
         </details>
       </button>
       </div>
   
       <div className="card">
-    <li><h2> question  type here </h2></li>
+    <li><h2> What do you mean by Support(A)?</h2></li>
       <div className='AnswerMCQ'>
-        <h4>A) Scalar and Raster</h4>
-        <h4>B) Vector and Raster</h4>
-        <h3>C) Vector and Raster</h3>
-        <h4>D) None of these</h4>
+        <h3>A) Number of transactions containing A / Total number of transactions</h3>
+        <h4>B) Number of transactions not containing A / Total number of transactions</h4>
+        <h4>C) Total number of transactions containing A</h4>
+        <h4>D) Total Number of transactions not containing A</h4>
       </div>
        <button>
         <details>
           <summary>Click to view Solution</summary>
-          <h2>Correct Answer is <b>C) Vector and Raster</b></h2>
+          <h2>Correct Answer is <b>A) Number of transactions containing A / Total number of transactions</b></h2>
           <p>Explanation : Comming Soon</p>
         </details>
       </button>
       </div>
   
       <div className="card">
-    <li><h2> question  type here </h2></li>
+    <li><h2>What is not true about FP growth algorithms? </h2></li>
       <div className='AnswerMCQ'>
-        <h4>A) Scalar and Raster</h4>
-        <h4>B) Vector and Raster</h4>
-        <h3>C) Vector and Raster</h3>
-        <h4>D) None of these</h4>
+        <h4>A) There are chances that FP trees may not fill in the memory</h4>
+        <h4>B) It mines frequent itemsets without candidate generation</h4>
+        <h3>C) It expands the original database to build FP trees</h3>
+        <h4>D) FP trees are very expensive to build</h4>
       </div>
        <button>
         <details>
           <summary>Click to view Solution</summary>
-          <h2>Correct Answer is <b>C) Vector and Raster</b></h2>
+          <h2>Correct Answer is <b>C) It expands the original database to build FP trees</b></h2>
           <p>Explanation : Comming Soon</p>
         </details>
       </button>
       </div>
   
       <div className="card">
-    <li><h2> question  type here </h2></li>
+    <li><h2> When do you consider an association rule interesting? </h2></li>
       <div className='AnswerMCQ'>
         <h4>A) Scalar and Raster</h4>
         <h4>B) Vector and Raster</h4>

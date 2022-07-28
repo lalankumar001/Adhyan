@@ -1,10 +1,20 @@
 
 /* About us page all css here */
 #AboutpageFirstDiv{
-background-color: black;
+width: 99%;
+/* height: 90vh; */
+height: 100%;
+margin-left: 5px;
+margin-right: 10px;
+border-radius: 5px;
+margin-top: 5px;
+background-color: #e841dd;
+background: #0f8a9d;
+background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+
 }
 #AboutpageFirstDiv h1{
-    color: aqua;
+    color: black;
     margin-left: 1%;
 }
 #AboutpageFirstDiv h3{
@@ -12,7 +22,7 @@ background-color: black;
     text-align: center;
 }
 .AboutPagePeragraph{
-    color: whitesmoke;
+    color: rgb(23, 5, 5);
     font-size: 30px;
     font-weight: 600;
     margin-top: 1%;
@@ -20,6 +30,20 @@ background-color: black;
     margin-right: 1.5%;
     width: 97%;
     text-align: justify;
+}
+@media (max-width: 600px) {
+  #AboutpageFirstDiv{
+          width: 100%;
+          height: 100%;
+          margin-left: 5px;
+          margin-right: 10px;
+          border-radius: 5px;
+           margin-top: 5px;
+            background-color: #e841dd;
+           background: #0f8a9d;
+           background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+  }
+  
 }
 
 .leftsidepartOne img{
@@ -42,35 +66,6 @@ border-radius: 30%;
     width: 100%;
     height: auto;
 }
-
-/* .rightsidepartTwo img{
-    width: 50%;
-    height: 40vh;
-    margin-left: 65%;
-    margin-top: 3%;
-    border: 1px solid black;
-    border-radius: 50%;
-
-}
-#pnametushar{
-    margin-top: 1%;
-    margin-left: 70%;
-    width: 100%;
-    font-size: 35px;
-    color: aqua;
-
-}
-.rightsidepartTwo p{
-    color: black;
-    margin-left: 40%;
-    width: 100%;
-    font-size: 20px;
-}
-.rightsidepartTwo h5{
-    width: 100%;
-    margin-left: 40%;
-} */
-
 .site-headerAbout {
     margin-top: 2%;
     width: 100%;
@@ -78,7 +73,7 @@ border-radius: 30%;
     background: linear-gradient(57deg, #15211f , #1E4D92 ); 
     /* background radius */
     /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
-    clip-path: polygon(0% 0%, 0% 100%, 80% 100%, 100% 0%);
+    /* clip-path: polygon(0% 0%, 0% 100%, 80% 100%, 100% 0%); */
     
   }
   section{ 
@@ -92,11 +87,6 @@ border-radius: 30%;
     font-size: 35px;
     justify-content: space-around;
   }
-  .FounderSocialMediaTwo{
-    margin-left: 60%;
-    font-size: 35px;
-    justify-content: space-around;
-  }
   .FounderSocialMediaOne #git, #lndin , #insta, #twter{
     color: black;
   }
@@ -106,6 +96,14 @@ border-radius: 30%;
 .FounderSocialMediaTwo :hover{
     color: aqua;
 
+}
+@media (max-width:600px) {
+  .FounderSocialMediaOne{
+    width: 100%;
+    height: auto;
+    color: blue;
+  }
+  
 }
 
 .FounderSocialMediaTwo #gitone, #lndinone, #instaone , #twterone{

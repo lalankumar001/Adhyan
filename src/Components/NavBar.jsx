@@ -33,6 +33,12 @@ const Login = () => {
   <li className="nav-item">
         <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkThird'  to="/About">About Us</NavLink> 
         </li>
+<li className="nav-item">
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkThird'  to="/About">Blog</NavLink> 
+        </li>
+<li className="nav-item">
+        <NavLink  activeClassName="menu_active" className="nav-link" id='NavBarLinkThird'  to="/About">Login/Register</NavLink> 
+        </li>
       </ul>
     </div>
   </div>

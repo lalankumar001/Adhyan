@@ -1,9 +1,9 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle'
-import { NavLink } from 'react-router-dom'
-import Logo from "./Images/Project logo black color.jpg"
-// import Logo from './Images/adhyanLogo.jpg'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Logo from './Images/adhyanlogo.png'
+import Menu from './Images/Menu.svg'
+
+
 const Login = () => {
     return (
         <div>

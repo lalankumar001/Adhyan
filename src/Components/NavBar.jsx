@@ -4,8 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import { NavLink } from 'react-router-dom'
 import Logo from "./Images/Project logo black color.jpg"
 // import Logo from './Images/adhyanLogo.jpg'
-
-
 const Login = () => {
     return (
         <div>

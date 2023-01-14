@@ -4,15 +4,15 @@ import Logo from './Images/adhyanlogo.png'
 import Menu from './Images/Menu.svg'
 
 
-const Login = () => {
+const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light fixed-top">
         <div className="container-fluid">
           <NavLink to="/Home" className="navbar-brand"></NavLink>
-          <img src={Logo} alt="Logo" className="Logo" />
+          <NavLink to="/Home"><img src={Logo} alt="Logo" className="Logo w-75" /></NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span className="navbar-toggler"><img src={Menu} alt="Menu"/></span>
+            <span className="navbar-toggler"><img src={Menu} alt="Menu" /></span>
           </button>
           <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
@@ -69,7 +69,7 @@ const Login = () => {
                     Login
                   </NavLink>
                 </li>
-                
+
               </ul>
             </div>
 
@@ -80,4 +80,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default NavBar;

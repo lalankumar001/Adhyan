@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const BcaHomepage = () => {
   return (
     <div className="mt-5">
-      <div className="mt-4 p-5">
+      <div className="mt-4 p-5 bg-secondary shadow">
         <h1 className="fs-1 fw-bold text-center mt-3 shadow p-2">
           {" "}
           <b className="text-info">Your One-Stop Library </b> for Endless

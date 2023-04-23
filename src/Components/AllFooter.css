@@ -1,17 +1,13 @@
-.justcheck{
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-bottom: 1%;
-    font-family: 'Times New Roman', Times, serif;
-    color: azure;
-    margin-right: 1%;
-    border: 3px solid blue;
-    background-color: rgb(32, 30, 36);
+.FooterPage{
+ background-color: whitesmoke;
+
+
 }
-.justcheck a{
-    float: right;
-    margin-right: 0.5%;
+.FooterPage a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.FooterPage li{
+    list-style-type: none;
 }

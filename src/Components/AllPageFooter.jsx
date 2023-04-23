@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Images/adhyanlogo.png";
+import logos from './Images/Logo.png'
 import { FaRegCopyright } from "react-icons/fa";
 import "./AllFooter.css";
 import { MdLocationOn } from "react-icons/md";
@@ -11,7 +12,7 @@ const AllPageFooter = () => {
       <div class="container w-100 text-center justify-content-between ">
         <div class="row">
           <div class="col">
-            <img src={Logo} alt="" className="w-75 h-75 " />
+            <img src={logos} alt="" className="w-75 h-75 " />
           </div>
           <div class="col text-start">
             <h2 className="fw-bold">Courses</h2>

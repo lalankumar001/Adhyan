@@ -1,12 +1,13 @@
+
 /* Navbar link font Css from google font */
 .navbar-nav li{
   font-family: 'Chivo Mono', monospace;
-  font-family: 'Tillana', cursive;
+  font-weight: 500;
 }
 /* Home page Hero section */
 #HeroText{
    font-size: 6rem;
-   font-weight: 500;
+   font-weight: 600;
    font-family: 'Secular One', sans-serif;
 }
 @media  (min-width:576px) and (max-width:965px) {

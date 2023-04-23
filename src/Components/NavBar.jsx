@@ -1,4 +1,6 @@
 import React from "react";
+import 'bootstrap/dist/js/bootstrap.bundle'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { NavLink } from "react-router-dom";
 import Logo from './Images/adhyanlogo.png'
 import Menu from './Images/Menu.svg'
@@ -7,13 +9,13 @@ import Menu from './Images/Menu.svg'
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg bg-light shadow rounded fixed-top">
         <div className="container-fluid">
           <NavLink to="/Home" className="navbar-brand"></NavLink>
-          <NavLink to="/Home"><img src={Logo} alt="Logo" className="Logo w-75" /></NavLink>
-          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span className="navbar-toggler"><img src={Menu} alt="Menu" /></span>
-          </button>
+          <NavLink to="/Home"><img src={Logo}  alt="Logo"  className="w-75 h-25" /></NavLink>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon shadow"><img src={Menu} alt="ToggleIcon" className='w-100 h-100' /></span>
+    </button>
           <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
               <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
